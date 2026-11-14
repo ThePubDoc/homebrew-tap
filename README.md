@@ -1,18 +1,23 @@
-# Thepubdoc Tap
+# ThePubDoc Homebrew tap
 
-## How do I install these formulae?
+Homebrew formulae for ThePubDoc projects.
 
-`brew install thepubdoc/tap/<formula>`
+## shellsense
 
-Or `brew tap thepubdoc/tap` and then `brew install <formula>`.
+[shellsense](https://github.com/ThePubDoc/shellsense) is an IDE-style autocomplete popup for
+the terminal.
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "thepubdoc/tap"
-brew "<formula>"
+```sh
+brew install thepubdoc/tap/shellsense
+shellsense setup
 ```
 
-## Documentation
+Then open a new terminal. After `brew upgrade shellsense`, run `shellsense stop` once so shells
+pick up the new engine.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+To remove it:
+
+```sh
+shellsense uninstall
+brew uninstall shellsense
+```
