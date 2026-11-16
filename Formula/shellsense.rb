@@ -1,8 +1,8 @@
 class Shellsense < Formula
   desc "IDE-style autocomplete popup for the terminal"
   homepage "https://github.com/ThePubDoc/shellsense"
-  url "https://registry.npmjs.org/shellsense/-/shellsense-0.2.0.tgz"
-  sha256 "6be1ac2cc7b76912df7792c8ae6b8d78d387196aad218ab8e0a6373dc5e4f104"
+  url "https://registry.npmjs.org/shellsense/-/shellsense-0.2.1.tgz"
+  sha256 "9be3963eb7ba666327d7e931e434607bbc6c06b93dea529ae8213e14cff7684c"
   license "MIT"
 
   depends_on "node"
